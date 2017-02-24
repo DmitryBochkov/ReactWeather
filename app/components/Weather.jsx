@@ -4,7 +4,6 @@ var WeatherMessage = require('WeatherMessage');
 var openWeatherMap = require('openWeatherMap');
 
 var Weather = React.createClass({
-
   getInitialState: function() {
     return {
       isLoading: false
